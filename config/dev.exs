@@ -3,7 +3,7 @@ use Mix.Config
 # Configure your database
 config :chirp, Chirp.Repo,
   username: "postgres",
-  password: "",
+  password: "Pass2020!",
   database: "chirp_dev",
   hostname: "127.0.0.1",
   show_sensitive_data_on_connection_error: true,
